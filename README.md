@@ -22,35 +22,20 @@ The dataset consists of historical marketing and sales data from various promoti
 - **Influencer**: Type of influencer used in the campaign (Micro, Macro, Mega, Nano).  
 - **Sales**: Total revenue generated from the marketing campaign (in millions of dollars).  
 
-## **Data Processing and Analysis**  
+## **Data Processing Steps**  
 
-### **Data Cleaning**  
-- Handled missing values.  
-- Encoded categorical variables (TV and Influencer) for analysis.  
-- Standardized numerical features for clustering.  
+The data processing and analysis steps include:  
 
-### **Exploratory Data Analysis (EDA)**  
-- Analyzed distributions of marketing budgets and sales.  
-- Visualized relationships between variables using pairplots and scatterplots.  
-- Examined mean sales across different TV promotion levels and influencer tiers.  
-
-### **Regression Modeling**  
-- **Simple Linear Regression**: Modeled the relationship between individual marketing channels and sales.  
-- **Multiple Linear Regression**: Predicted sales using TV, radio, and influencer types as predictors.  
-
-### **Statistical Testing**  
-- Validated regression assumptions (linearity, normality, homoscedasticity, multicollinearity).  
-- Conducted **Tukey's HSD post hoc test** to compare sales across TV promotion levels.  
-
-### **K-means Clustering**  
-- Determined the optimal number of clusters using **elbow method** and **silhouette scores**.  
-- Segmented marketing campaigns based on budget allocation patterns.  
-- Analyzed cluster characteristics and their impact on sales performance.  
-
-### **Visualization**  
-- Created regression plots to illustrate relationships between marketing budgets and sales.  
-- Generated residual plots to check model assumptions.  
-- Visualized cluster distributions and sales performance across marketing segments.  
+- **Data Cleaning**: Handled missing values, encoded categorical variables (TV and Influencer), and standardized numerical features for clustering.  
+- **Exploratory Data Analysis (EDA)**: Summarized key trends and relationships in the dataset, visualized distributions of marketing budgets and sales, and analyzed mean sales across different TV promotion levels and influencer tiers.  
+- **Regression Modeling**:  
+  - **Simple Linear Regression**: Modeled the relationship between individual marketing channels and sales.  
+  - **Multiple Linear Regression**: Predicted sales using TV, radio, and influencer types as predictors.  
+- **Statistical Testing**:  
+  - Validated regression assumptions, including linearity, normality, homoscedasticity, and multicollinearity.  
+  - Conducted **Tukey's HSD post hoc test** to compare sales across TV promotion levels.  
+- **K-means Clustering**: Determined the optimal number of clusters using the **elbow method** and **silhouette scores**, segmented marketing campaigns based on budget allocation patterns, and analyzed cluster characteristics and their impact on sales performance.  
+- **Visualization**: Created regression plots to illustrate relationships between marketing budgets and sales, generated residual plots to check model assumptions, and visualized cluster distributions and sales performance across marketing segments.
 
 ## **Key Insights**  
 
